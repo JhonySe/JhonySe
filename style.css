@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #ff3c6a;
+  }
+  
+  header p {
+    margin: 5px 0 0;
+    color: #ccc;
+  }
+  
+  .presentacion, .redes {
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .redes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .redes li {
+    margin: 10px 0;
+  }
+  
+  .redes a {
+    color: #00acee;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .redes a:hover {
+    color: #ff3c6a;
+  }
+  
+  footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #777;
+  }
