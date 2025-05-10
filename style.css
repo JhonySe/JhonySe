@@ -47,13 +47,6 @@ body {
   .redes a:hover {
     color: #ff3c6a;
   }
-  .iconos-de-redes {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 50px;
-  }
-  
   footer {
     background-color: #111;
     text-align: center;
