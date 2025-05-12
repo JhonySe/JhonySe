@@ -30,6 +30,9 @@ body {
   .paginas {
     text-align: center;
   }
+  .paginas img{
+    margin:20px;
+  }
   .redes ul {
     list-style: none;
     padding: 0;
