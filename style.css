@@ -30,6 +30,9 @@ body {
     border-radius:50px;
     width:250px;
   }
+  .presentacion a img{
+    margin: 10px;
+  }
   .paginas {
     text-align: center;
   }
@@ -54,7 +57,9 @@ body {
     font-size: 18px;
     transition: color 0.3s ease;
   }
-  
+  .redes a img{
+    margin: 10px;
+  }
   .redes a:hover {
     color: #ff3c6a;
   }
