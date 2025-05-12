@@ -31,13 +31,13 @@ body {
     width:250px;
   }
   .presentacion a img{
-    margin: 10px;
+    margin: 15px;
   }
   .paginas {
     text-align: center;
   }
   .paginas img{
-    margin:20px;
+    margin:10px;
   }
   .paginas img, .redes img {
   max-width: 100%;
@@ -58,7 +58,7 @@ body {
     transition: color 0.3s ease;
   }
   .redes a img{
-    margin: 10px;
+    margin: 15px;
   }
   .redes a:hover {
     color: #ff3c6a;
