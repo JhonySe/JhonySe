@@ -27,7 +27,9 @@ body {
     margin: auto;
     text-align: center;
   }
-  
+  .paginas {
+    text-align: center;
+  }
   .redes ul {
     list-style: none;
     padding: 0;
@@ -36,7 +38,6 @@ body {
   .redes li {
     margin: 10px 0;
   }
-  
   .redes a {
     color: #00acee;
     text-decoration: none;
