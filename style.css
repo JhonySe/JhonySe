@@ -2,88 +2,144 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: #ffffff;
+    background-image: url(https://i.pinimg.com/originals/cf/03/d8/cf03d8b554fe01f270c4f7a25261e8c0.gif);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
     color: #000;
     text-align: center;
 }
 
 /* cabecera*/
 header {
-    background-color: #111;
+    background-color: #11111149;
     color: #fff;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 
 header h1 {
     font-weight: bold;
     margin: 0;
-    font-size: 36px;
+    font-size: 25px;
+    
 }
 
-header .highlight {
-    color: #f07;
+header .titulo {
+    color: rgb(255, 255, 255);
 }
-
-header p {
-    margin: 5px 0 0;
-    font-size: 14px;
+.logo1{
+    width: 50px;
+}
+.logo2{
+    width: 50px;
 }
 /* Sección de perfil */
 .fondo1 {
-    margin: 30px auto;
-    max-width: 400px;
-    padding: 20px;
-    background-color: #000;
-    border-radius: 30px;
-    color: #fff;
-}
-
-.bienvenida {
-    font-weight: bold;
-    color: cyan;
-    font-size: 24px;
-}
-
-.avatar {
-    width: 200px;
-    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background: var(--glass);
+    position: relative;
+    width: 350px;
+    height:500px;
     border-radius: 20px;
-    margin: 20px 0;
+    backdrop-filter: blur(15px);
+    border: 1px solid white;
+    box-shadow: 0px 5px 10px rgb(245, 245, 245);
+    transform-style: preserve-3d;
 }
-
+.bienvenida {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  padding-left: 0.5cm;
+}
+.bienvenida img{
+    width: 20px;
+}
+.avatar {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: 1px 0;
+}
 .descripcion {
     font-size: 16px;
     padding: 0 10px;
 }
+.redes-iconos {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* Centra los íconos horizontalmente */
+  margin-top: 20px; /* Opcional: espacio arriba */
+}
+.icono{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.icono span {
+  background: #ffffff81;
+  padding: 15px;
+  border-radius: 50%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  font-size: 24px;
+  color: #000;
+}
+
+.ventana-flotante {
+  position: absolute;
+  top: -35px;
+  background-color: #c80000;
+  padding: 5px 10px;
+  color: #fff;
+  border-radius: 25px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.3s ease;
+  transition: 0.3s ease, background-color 0.3s ease
+}
+.ventana-flotante.youtube1 {
+  background-color: #FF0000;
+}
+.ventana-flotante.tiktok1 {
+  background-color: #030002;
+}
+.ventana-flotante.instagram1 {
+  background-color: #ff0077;
+}
+.ventana-flotante.telegram1 {
+  background-color: #00d4fa;
+}
+.icono:hover .ventana-flotante,
+.icono:focus .ventana-flotante  {
+  opacity: 1;
+  top: -50px;
+}
+.icono:hover span {
+  transform: scale(1.1);
+}
 /* Redes sociales */
-.redes h3 {
-    font-weight: bold;
-    font-size: 22px;
-    margin-top: 40px;
-}
-
-.red {
-    color: #f07;
-}
-
-.azul {
-    color: #0ff;
-}
-
-.redes-sociales {
+.redes2-sociales {
     list-style: none;
     padding: 0;
     margin: 20px 0;
 }
 
-.redes-sociales li {
-    margin: 10px 0;
+.redes2-sociales li{
+    margin: 10px;
 }
 
-.redes-sociales a {
+.redes2-sociales a {
     display: inline-block;
     width: 200px;
-    background-color: #000;
+    background-color: #00000059;
+    border: 1px solid white;
     color: #fff;
     padding: 12px 20px;
     border-radius: 50px;
@@ -92,39 +148,14 @@ header p {
     font-size: 20px;
 }
 
-.redes-sociales img {
+.redes2-sociales img {
     width: 25px;
     vertical-align:middle;
     margin-right: 15px;
 }
-/* Páginas oficiales */
-.fuentes {
-    margin-top: 40px;
-}
-
-.fuentes h3 {
-    font-weight: bold;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.naranja {
-    color: #f60;
-}
-
-.verde {
-    color: #0a0;
-}
-
-.logos img {
-    height: 60px;
-    margin: 10px;
-}
-
-.fuente-texto {
-    font-weight: bold;
-    font-size: 14px;
-    color: #f60;
+.redes2-sociales a:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 /* creditos */
 footer {
