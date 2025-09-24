@@ -28,7 +28,7 @@
 ---
 
 ### 📫 Cómo contactarme:
-- 📧 correo@ejemplo.com
+- 📧 [gmail] ( hmjhonywilder987@gmail.com )
 - 💼 [LinkedIn](https://www.linkedin.com/in/jhonyhuaricallomamani/)
 - 🌐 [Portafolio Web].
 
